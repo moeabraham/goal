@@ -1,0 +1,20 @@
+
+.videoContainer{
+    background-color: red;
+    width:87vw;
+    margin: 0 auto;
+
+}
+
+
+
+.TopSec{
+    display:flex;
+    gap:0;
+    width:90%;
+    margin: auto;
+    
+}
+.videoSec{
+
+}

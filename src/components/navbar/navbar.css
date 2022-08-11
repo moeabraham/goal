@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital@1&display=swap');
+
+
+
+
+.navbar{
+    height:60px;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    background-color:black;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border-bottom: 4px #f0725c solid;
+    position:fixed;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:1rem;
+    /* justify-content:center; */
+
+
+}
+nav{
+    height:70px;
+    width:100vw;
+    display:flex;
+    margin-left:2rem;
+    margin-right:auto;
+     align-items: center;
+}
+
+.logo{
+    width:130px;
+    height:80px;
+    display:flex;
+    padding:0.5rem;
+ 
+}
+.logo > img{
+    /* padding:auto; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-self:center;
+    color:white;
+    height:30px;
+
+}
+
+.logoImg{
+    /* max-width: 100%; */
+    width:100%;
+    height: 40px;
+}
+.navs{
+    display:flex;
+    width:100%;
+    height:80px;
+
+}
+
+.list{
+    /* height:70px; */
+    width:100%;
+    /* margin-right:40px;
+    margin-left: auto; */
+    display:flex;
+    gap:1.5rem;
+    align-items: center;
+
+   
+}
+
+.links{
+    list-style: none;
+    display:flex;
+    size:large;
+}
+
+.hamburger{
+    margin-top:2rem;
+    margin-right:2rem;
+    display:none;
+    /* position: absolute;
+    right:-100%; */
+}
+
+.hamburger-menu{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:left;
+    gap:2rem;
+
+    background-color:grey;
+    position: absolute;
+    top:70px;
+    display:none;
+}
+
+.hamburger-menu .active{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:left;
+    gap:2rem;
+
+    background-color:grey;
+    position: absolute;
+    top:70px;
+    /* right:100%; */
+} 
+/* .hidden{
+    display:none;
+} */
+
+
+.mob-links{
+    list-style: none;
+    display:flex;
+    margin-top:2.5rem;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hamburger{
+        margin-top:2rem;
+        margin-right:2rem;
+        display:block;
+        margin-left:auto;
+    }
+    .list{
+        display:none;
+       
+    }
+    .open{
+        display:block
+    }
+
+    /* .hamburger-menu{
+        width:100vw;
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items:left;
+        gap:2rem;
+    
+        background-color:grey;
+        position: absolute;
+        top:70px;
+    } */
+  }
+  

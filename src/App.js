@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import { useState } from 'react'
 import './App.css';
+import Navbar from './components/navbar/Navbar';
+import Main from './components/main/Main'
+import Latest from './components/latest/Latest'
+import NewsSec from './components/newsSec/NewsSec';
+import Videos from './components/videos/Videos';
+import './App.css'
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const toggler = ()=>{
+    setMenuOpen(!menuOpen)
+  }
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} toggler={toggler} />
+     <Main />
+     <Latest />
+     <NewsSec />
+     <Videos />
     </div>
   );
 }
