@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/goal/static/css/main.68d7128a.css",
+    "main.js": "/goal/static/js/main.984fdefe.js",
+    "static/js/787.8aceb254.chunk.js": "/goal/static/js/787.8aceb254.chunk.js",
+    "static/media/goalmain.webp": "/goal/static/media/goalmain.fc1d2baaf2fce61f74f1.webp",
+    "static/media/zidane.png": "/goal/static/media/zidane.b45e12e5b825e41dac27.png",
+    "static/media/jesus.png": "/goal/static/media/jesus.f6ebb43e564fd02db4f6.png",
+    "static/media/goal.svg": "/goal/static/media/goal.418537c73fdf442429ca4007d408ac25.svg",
+    "index.html": "/goal/index.html",
+    "main.68d7128a.css.map": "/goal/static/css/main.68d7128a.css.map",
+    "main.984fdefe.js.map": "/goal/static/js/main.984fdefe.js.map",
+    "787.8aceb254.chunk.js.map": "/goal/static/js/787.8aceb254.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68d7128a.css",
+    "static/js/main.984fdefe.js"
+  ]
+}
